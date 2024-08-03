@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import "./App.css";
 import CustomerDetails from "./components/CustomerDetails";
 import CustomerList from "./components/CustomerList";
