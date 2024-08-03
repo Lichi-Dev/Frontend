@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This README provides instructions on how to set up and run the project.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure you have the following software installed on your machine:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (version 12.0.0 or higher)
+- [npm](https://www.npmjs.com/) (Node package manager, comes with Node.js)
+- [Git](https://git-scm.com/) (for cloning the repository)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+### 1. Clone the Repository
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+First, clone the repository to your local machine using Git:
+
+```bash
+git clone https://github.com/Lichi-Dev/Frontend.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2. Navigate to the Project Directory
+
+Change your directory to the project folder:
+
+```bash
+cd Frontend
+```
+
+### 3. Install Dependencies
+
+Install the required dependencies using npm:
+
+```bash
+npm install
+```
+
+### 4. Run the Development Server
+
+Start the development server using Vite:
+
+```bash
+npm run dev
+```
+
+You should see output similar to this:
+
+```bash
+  VITE vX.X.X  ready in XXX ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use `--host` to expose
+```
+
+Open your browser and go to http://localhost:5173/ to see your Vite project in action.
